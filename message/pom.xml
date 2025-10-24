@@ -83,7 +83,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>mjlslink5/${project.artifactId}:s14</image>
+						<image>mjlslink5/${project.artifactId}:s17</image>
 					</to>
 				</configuration>
 			</plugin>
