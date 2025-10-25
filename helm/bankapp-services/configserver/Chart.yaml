@@ -26,4 +26,4 @@ appVersion: "1.0.0"
 dependencies:
   - name: bankapp-common
     version: 0.1.0
-    repository: "file://../../bankapp-common"
+    repository: file://../../bankapp-common

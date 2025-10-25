@@ -24,34 +24,30 @@ version: 0.1.0
 appVersion: "1.0.0"
 
 dependencies:
-  - name: bankapp-common
+  - name: eazybank-common
     version: 0.1.0
-    repository: "file://../../bankapp-common"
+    repository: file://../../eazybank-common
 
   - name: configserver
     version: 0.1.0
-    repository: "file://../../bankapp-services/configserver"
+    repository: file://../../eazybank-services/configserver
     
-  - name: eurekaserver
-    version: 0.1.0
-    repository: "file://../../bankapp-services/eurekaserver"
-  
   - name: accounts
     version: 0.1.0
-    repository: "file://../../bankapp-services/accounts"
+    repository: file://../../eazybank-services/accounts
     
   - name: cards
     version: 0.1.0
-    repository: "file://../../bankapp-services/cards"
+    repository: file://../../eazybank-services/cards
     
   - name: loans
     version: 0.1.0
-    repository: "file://../../bankapp-services/loans"
+    repository: file://../../eazybank-services/loans
 
   - name: gatewayserver
     version: 0.1.0
-    repository: "file://../../bankapp-services/gatewayserver"
+    repository: file://../../eazybank-services/gatewayserver
 
   - name: message
     version: 0.1.0
-    repository: "file://../../bankapp-services/message"
+    repository: file://../../eazybank-services/message

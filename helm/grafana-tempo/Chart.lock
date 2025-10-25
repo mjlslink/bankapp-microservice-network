@@ -1,6 +1,9 @@
 dependencies:
-- name: tempo
-  repository: https://grafana.github.io/helm-charts
-  version: 1.17.0
-digest: sha256:cf9f96ce7fe05d466e009e4743cd09330e8e1502bd68cb76d40a522702fe539b
-generated: "2025-10-06T20:17:34.18016+05:30"
+- name: memcached
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 7.6.1
+- name: common
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 2.29.0
+digest: sha256:ca8ff98c5bb809e943a67dc429cc3ae18fe1e06e755210c07dfc20d6cd4d3f8f
+generated: "2025-01-12T23:39:59.528045004Z"

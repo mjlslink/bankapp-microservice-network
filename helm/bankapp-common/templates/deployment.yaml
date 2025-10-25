@@ -40,11 +40,11 @@ spec:
               name: {{ .Values.global.configMapName }}
               key: SPRING_CONFIG_IMPORT
         {{- end }}
-        {{- if .Values.eureka_enabled }}
+        {{- if .Values.discovery_enabled }}
         - name: SPRING.CLOUD.KUBERNETES.DISCOVERY.DISCOVERY-SERVER-URL
-          valueFrom:
+          valueFrom: 
             configMapKeyRef:
-              name: { { .Values.global.configMapName } }
+              name: {{ .Values.global.configMapName }}
               key: SPRING.CLOUD.KUBERNETES.DISCOVERY.DISCOVERY-SERVER-URL
         {{- end }}
         {{- if .Values.resouceserver_enabled }}
